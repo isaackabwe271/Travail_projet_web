@@ -1,0 +1,50 @@
+<!--Création de la page HTML avec toutes les fonctionnalités necessaires pour notres calculatrice -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- liaison ou implementation de la page css dans le html -->
+    <link rel="stylesheet" href="./style.css">
+    <title>calaculatrice</title>
+</head>
+<body>
+    <h1></h1>
+    <!-- Création de la div principale qui contiendra toute la calculatrice -->
+    <div class="calculatrice"> 
+        <!-- la div qui va constituée notre ecran -->
+        <div class="ecran"></div>
+        <!-- la div qui va constituée tout les boutons qu'on aura besoin -->
+        <div class="touches">
+            <!-- création des boutons de classe bouton -->
+            <!--Nous allons mettre tout le KEYCODE associer à chacune des nos touches -->
+            <button data-key="8" class="bouton">C</button>
+            <button data-key="53" class="bouton">(</button>
+            <button data-key="219" class="bouton">/</button>
+            <button data-key="111" class="bouton">)</button>
+            <button data-key="103" class="bouton">7</button>
+            <button data-key="104" class="bouton">8</button>
+            <button data-key="105" class="bouton">9</button>
+            <button data-key="106" class="bouton">*</button>
+            <button data-key="100" class="bouton">4</button>
+            <button data-key="101" class="bouton">5</button>
+            <button data-key="102" class="bouton">6</button>
+            <button data-key="109" class="bouton">-</button>
+            <button data-key="97" class="bouton">1</button>
+            <button data-key="98" class="bouton">2</button>
+            <button data-key="99" class="bouton">3</button>
+            <button data-key="107" class="bouton">+</button>
+            <button data-key="96" class="bouton">0</button>
+            <button data-key="110" class="bouton">.</button>
+            <button data-key="13" class="bouton">=</button>
+        </div>
+    </div>
+    <!-- liaison de la page avec celui du JavaScript -->
+    <script src="./app.js"></script>
+    <p> Partcipants : <br>
+        MPEMBA KABWE ISAAC L1B2<br>
+        MWANBA KABONGO SIMON L1B
+    </p>
+</body>
+</html>
